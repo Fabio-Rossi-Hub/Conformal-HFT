@@ -4,7 +4,11 @@ This project implements conformal prediction techniques for high-frequency tradi
 
 ## Description
 
-This project integrates conformal prediction techniques with deep learning models to enhance price prediction in limit order books (LOBs). We focus on improving the DeepLOB model by incorporating conformal prediction methodologies that provide guaranteed prediction coverage and improved calibration of probabilistic outputs.
+We employ a conformal wrapper by customizing TorchCP package to calibrate DeepLOB, a popular deep learning architecture for mid-price
+forecasting. The study explore different score functions such as Adaptive Prediction Sets (APS),
+Regularized APS (RAPS), and Soft APS (SAPS), and uses Temperature Scaling. This study highlights the importance of machine
+learning calibration to improve models reliability and informativeness for better risk management
+and more informed algorithmic trading decisions.
 
 
 ## Usage
