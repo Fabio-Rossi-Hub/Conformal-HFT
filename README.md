@@ -83,7 +83,7 @@ This project includes two Jupyter notebooks that demonstrate the core results:
 ## Results
 
 Our empirical analysis demonstrates that the conformal DeepLOB model achieves:
-- 95% prediction coverage with an average set size of 2 using SAPS
-- 85% prediction coverage with an average set size of 1.6
+- 90% prediction coverage with an average set size of 1.69, with 63% of sets having a single label using SAPS
+- Out of sample forecasting accuracy increased from 75% to 87% thanks to uncertainty quantification and Log Loss halved to 0.77
 
 These results highlight the potential of conformal prediction to enhance the reliability and interpretability of deep learning models in financial markets.
