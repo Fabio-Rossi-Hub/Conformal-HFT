@@ -1,0 +1,136 @@
+{
+    "APS": {
+        "0.1": {
+            "best_temperature": 0.5766497252089529,
+            "test_results": {
+                "Coverage_rate": 0.9244594517091076,
+                "Average_size": 2.1057868777242486,
+                "Unilable_share": 0.09536304198210599,
+                "Multiclass_brier_score": 0.12819623724715465,
+                "Log_loss": 0.7012587759279143
+            }
+        },
+        "0.15": {
+            "best_temperature": 0.5660917554133552,
+            "test_results": {
+                "Coverage_rate": 0.8883273113099335,
+                "Average_size": 1.8098976256022024,
+                "Unilable_share": 0.2646535902729984,
+                "Multiclass_brier_score": 0.12793218798253625,
+                "Log_loss": 0.6997284099010812
+            }
+        },
+        "0.2": {
+            "best_temperature": 0.5784421405920767,
+            "test_results": {
+                "Coverage_rate": 0.8538153819683414,
+                "Average_size": 1.5364690869465474,
+                "Unilable_share": 0.472786189493003,
+                "Multiclass_brier_score": 0.1282441019906558,
+                "Log_loss": 0.7015308026999404
+            }
+        },
+        "0.25": {
+            "best_temperature": 0.5691215098405787,
+            "test_results": {
+                "Coverage_rate": 0.8144141431520991,
+                "Average_size": 1.2593197981188347,
+                "Unilable_share": 0.7414544620325763,
+                "Multiclass_brier_score": 0.12800475720728244,
+                "Log_loss": 0.7001545511764352
+            }
+        }
+    },
+    "RAPS": {
+        "0.1": {
+            "best_lambda": 0.11708651497102962,
+            "best_temperature": 0.5754774892313922,
+            "test_results": {
+                "Coverage_rate": 0.9242443794448268,
+                "Average_size": 2.106876577196605,
+                "Unilable_share": 0.08840903877036017,
+                "Multiclass_brier_score": 0.1281653986833943,
+                "Log_loss": 0.7010827198819538
+            }
+        },
+        "0.15": {
+            "best_lambda": 0.11496299373847059,
+            "best_temperature": 0.5922924418335446,
+            "test_results": {
+                "Coverage_rate": 0.890363328745125,
+                "Average_size": 1.8326451020876349,
+                "Unilable_share": 0.24513219775177794,
+                "Multiclass_brier_score": 0.1286417734670375,
+                "Log_loss": 0.703741494869372
+            }
+        },
+        "0.2": {
+            "best_lambda": 0.16696396634745583,
+            "best_temperature": 0.5616027794726391,
+            "test_results": {
+                "Coverage_rate": 0.8538297201192934,
+                "Average_size": 1.5440252924982794,
+                "Unilable_share": 0.4597528102775866,
+                "Multiclass_brier_score": 0.12782958671379954,
+                "Log_loss": 0.6991173567129594
+            }
+        },
+        "0.25": {
+            "best_lambda": 0.7551197601371104,
+            "best_temperature": 0.5784820323927303,
+            "test_results": {
+                "Coverage_rate": 0.8136757283780683,
+                "Average_size": 1.2571260610231705,
+                "Unilable_share": 0.7428739389768295,
+                "Multiclass_brier_score": 0.12824517688490597,
+                "Log_loss": 0.7015368945198152
+            }
+        }
+    },
+    "SAPS": {
+        "0.1": {
+            "best_lambda": 0.7363590428846708,
+            "best_temperature": 0.5784959417438249,
+            "test_results": {
+                "Coverage_rate": 0.9242730557467309,
+                "Average_size": 2.1151998738242717,
+                "Unilable_share": 0.08741253727919247,
+                "Multiclass_brier_score": 0.12824555104533678,
+                "Log_loss": 0.7015390147567303
+            }
+        },
+        "0.15": {
+            "best_lambda": 0.45764846417892147,
+            "best_temperature": 0.5765729587154864,
+            "test_results": {
+                "Coverage_rate": 0.8893166437256251,
+                "Average_size": 1.8083204289974766,
+                "Unilable_share": 0.2641660931406286,
+                "Multiclass_brier_score": 0.1281942063199227,
+                "Log_loss": 0.7012472007988346
+            }
+        },
+        "0.2": {
+            "best_lambda": 0.5257161429473312,
+            "best_temperature": 0.5757766170120894,
+            "test_results": {
+                "Coverage_rate": 0.8552993805918788,
+                "Average_size": 1.5650880362468456,
+                "Unilable_share": 0.4481174007799954,
+                "Multiclass_brier_score": 0.1281732336780462,
+                "Log_loss": 0.7011275101531054
+            }
+        },
+        "0.25": {
+            "best_lambda": 0.5521759779941748,
+            "best_temperature": 0.5667775440455887,
+            "test_results": {
+                "Coverage_rate": 0.815202741454462,
+                "Average_size": 1.3185363615508143,
+                "Unilable_share": 0.6820228263363157,
+                "Multiclass_brier_score": 0.1279483813427517,
+                "Log_loss": 0.6998239092743599
+            }
+        }
+    }
+}
