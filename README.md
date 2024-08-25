@@ -3,6 +3,7 @@
 This project implements conformal prediction techniques for high-frequency trading (HFT) using deep learning models, with a focus on improving the DeepLOB model.
 
 ## Project Structure
+```
 CONFORMAL-HFT/
 ├── src/
 │   ├── custom_calibrators/
@@ -34,7 +35,7 @@ CONFORMAL-HFT/
 │   └── torch_dfs.py
 ├── evaluation.ipynb
 └── torchcp_calibration.ipynb
-
+```
 ## Description
 
 This project integrates conformal prediction techniques with deep learning models to enhance price prediction in limit order books (LOBs). We focus on improving the DeepLOB model by incorporating conformal prediction methodologies that provide guaranteed prediction coverage and improved calibration of probabilistic outputs.
