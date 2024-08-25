@@ -2,6 +2,23 @@
 
 This project implements conformal prediction techniques for high-frequency trading (HFT) using deep learning models, with a focus on improving the DeepLOB model.
 
+## Description
+
+This project integrates conformal prediction techniques with deep learning models to enhance price prediction in limit order books (LOBs). We focus on improving the DeepLOB model by incorporating conformal prediction methodologies that provide guaranteed prediction coverage and improved calibration of probabilistic outputs.
+
+
+## Usage
+1. Clone this repository:
+```
+git clone https://github.com/Fabio-Rossi-Hub/CONFORMAL-HFT.git
+cd CONFORMAL-HFT
+```
+2. Create a conda enviroments with the required dependencies:
+```
+conda env create --file=requirements.yaml
+```
+3. Replace TorchCP library with `src/custom_calibrators/custom_torchcp` or modify import structure.
+   
 ## Project Structure
 ```
 CONFORMAL-HFT/
@@ -36,9 +53,6 @@ CONFORMAL-HFT/
 ├── evaluation.ipynb
 └── torchcp_calibration.ipynb
 ```
-## Description
-
-This project integrates conformal prediction techniques with deep learning models to enhance price prediction in limit order books (LOBs). We focus on improving the DeepLOB model by incorporating conformal prediction methodologies that provide guaranteed prediction coverage and improved calibration of probabilistic outputs.
 
 ## Key Components
 
