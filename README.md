@@ -2,6 +2,27 @@
 
 This project implements conformal prediction techniques for high-frequency trading (HFT) using deep learning models, with a focus on improving the DeepLOB model.
 
+## Description
+
+We employ a conformal wrapper by customizing TorchCP package to calibrate DeepLOB, a popular deep learning architecture for mid-price
+forecasting. The study explore different score functions such as Adaptive Prediction Sets (APS),
+Regularized APS (RAPS), and Soft APS (SAPS), and uses Temperature Scaling. This study highlights the importance of machine
+learning calibration to improve models reliability and informativeness for better risk management
+and more informed algorithmic trading decisions.
+
+
+## Usage
+1. Clone this repository:
+```
+git clone https://github.com/Fabio-Rossi-Hub/CONFORMAL-HFT.git
+cd CONFORMAL-HFT
+```
+2. Create a conda enviroments with the required dependencies:
+```
+conda env create --file=requirements.yaml
+```
+3. Replace TorchCP library with `src/custom_calibrators/custom_torchcp` or modify import structure.
+   
 ## Project Structure
 ```
 CONFORMAL-HFT/
@@ -36,9 +57,6 @@ CONFORMAL-HFT/
 ├── evaluation.ipynb
 └── torchcp_calibration.ipynb
 ```
-## Description
-
-This project integrates conformal prediction techniques with deep learning models to enhance price prediction in limit order books (LOBs). We focus on improving the DeepLOB model by incorporating conformal prediction methodologies that provide guaranteed prediction coverage and improved calibration of probabilistic outputs.
 
 ## Key Components
 
@@ -69,7 +87,7 @@ This project includes two Jupyter notebooks that demonstrate the core results:
 ## Results
 
 Our empirical analysis demonstrates that the conformal DeepLOB model achieves:
-- 95% prediction coverage with an average set size of 2 using SAPS
-- 85% prediction coverage with an average set size of 1.6
+- 90% prediction coverage with an average set size of 1.69, with 63% of sets having a single label using SAPS
+- Out of sample forecasting accuracy increased from 75% to 87% thanks to uncertainty quantification and Log Loss halved to 0.77
 
 These results highlight the potential of conformal prediction to enhance the reliability and interpretability of deep learning models in financial markets.
